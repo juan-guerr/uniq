@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face{
+	font-family: 'Poppins-Local';
+	src: url("../fonts/Poppins-Medium.ttf") format('truetype');
+	src: url("../fonts/Poppins-Regular.ttf") format('truetype');
+}
+
+:root{
+	--color-azul: #2653e3;
+	--color-negro: #000;
+	--fondo-footer: #202020;
+	--color-footer: #919191;
+}
+body{
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	color: #808080;
+}
+
+header{
+	padding: 20px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+header img{
+	width: 70px;
+}
+
+#hero h2 {
+	font-size: 36px;
+	margin-bottom: 0;
+	font-weight: 300;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #000000
+}
+
+#hero h1 {
+	font-size: 160px;
+	font-weight: 800;
+	margin-top: -35px;
+}
+
+#hero {
+	padding: 80px 0;
+}
+
+.margen-superior {
+	margin-top: 70px;
+}
+
+#hero p {
+	font-size: 25px;
+	margin-top: 10px;
+	font-weight: 300;
+}
+
+#hero .btn {
+	border: 2px solid #2653e3;	
+	border-radius: 0;
+	color: #2653e3;
+	font-weight: 500;
+	padding: 15px 35px;
+	background-color: #FFFFFF;
+}
+
+#hero .btn:hover{
+	border-color: #000000;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.section {
+	padding: 60px 0;
+}
+
+/*Dos formas de seleccionar*/ 
+#options{	/*Por id (tiene preferencia)*/
+	background-color: #f2f2f2;
+}
+
+.back-gray{		/*Por class*/
+	background-color: #f2f2f2;
+}
+
+.tarjeta{
+	background-color: #fff;
+	padding: 60px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#options .tarjeta h4{
+	font-weight: 600;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+#options .tarjeta p{
+	font-weight: 400;
+	font-size: 16px;
+}
+
+#options .tarjeta i{
+	font-size: 50px;
+	color: var(--color-azul);
+	margin-bottom: 30px;
+}
+
+.line{
+	border-width: 3px;
+	border-color: var(--color-azul);
+	opacity: 1;
+	width: 25px;
+	margin-bottom: 20px;
+}
+
+#options .line {
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#options .tarjeta:hover{
+	background-color: var(--color-azul);
+	color: #fff;
+}
+
+#options .tarjeta:hover p,
+#options .tarjeta:hover h4,
+#options .tarjeta:hover i{
+	color: #fff;
+}
+
+#options .tarjeta:hover hr{
+	border-color: #fff;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 60px 0;
+	font-size: 16px;
+}
+
+footer a{
+	color: #fff;
+}
+
+footer li a{
+	color: var(--color-negro);
+	background-color: #fff;
+	width: 30px;
+	display: block;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 20px;
+}
