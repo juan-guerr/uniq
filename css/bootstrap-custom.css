@@ -17,7 +17,7 @@ a{
 .navbar-light .navbar-nav .active.nav-link{
 	background-color:transparent;
 	color:var(--color-negro);
-	border-bottom: 3px solid var(--color-azul) ;
+	border-bottom: 3px solid var(--color-azul);
 }
 .navbar-light .navbar-nav .active.nav-link:hover{
 	background-color:transparent;
